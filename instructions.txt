@@ -9,6 +9,8 @@ Use the pub/sub pattern to create modular views, with a model that handles the b
 
 Use webpack to bundle your JavaScript files.
 
+
+
 MVP
 A user should be able to enter text into the text area, submit it and see the number of words that they entered, displayed below.
 
