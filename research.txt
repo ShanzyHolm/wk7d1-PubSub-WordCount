@@ -1,3 +1,9 @@
+"Total number of words: " + prompt("Please enter your name and surname:").split(" ").length);
+http://www.dynamicdrive.com/forums/showthread.php?25212-split()-length-counting-total-words
+
+result.data.split('\r\n').length;
+
+
 function splitString(stringToSplit, separator) {
   var arrayOfStrings = stringToSplit.split(separator);
 

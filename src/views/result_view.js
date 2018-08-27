@@ -4,8 +4,16 @@ const ResultView = function() {
 
 };
 
-ResultView.prototype.methodName = function(result) {
+ResultView.prototype.bindEvents = function() {
+  PubSub.subscribe('WordCounter:result', (event) => {
+    const result = event.detail;
+    this.updateView(result);
+  })
+};
 
+ResultView.prototype.updateView = function(result) {
+  const resultElement = document.querySelector('#result')
+    resultElement.textContent = `The text you entered has ${result}`
 };
 
 module.exports = ResultView;
