@@ -1,8 +1,15 @@
 Homework: WordCounter
+
 Learning Objectives
+
 Be able to install and configure webpack in an application
+
 Be able to implement the pub/sub pattern in a front-end JavaScript application
+
+
+
 Brief
+
 Your task is to create a word counter application that allows a user to submit some text, and see how many words they entered displayed below.
 
 Use the pub/sub pattern to create modular views, with a model that handles the business logic. You should use the start point, which has the HTML already provided.
