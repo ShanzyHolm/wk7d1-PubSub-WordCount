@@ -1,1 +1,12 @@
+body {
+  text-align: center;
+  background-image: url();
+}
 
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: fit-content;
+
+}
