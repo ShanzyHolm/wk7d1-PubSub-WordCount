@@ -14,12 +14,16 @@ WordCounter.prototype.bindEvents = function() {
   });
 };
 
-WordCounter.prototype.wordCount = function(inputted_text) {
-
-  const result = inputted_text.split(" ").length;
-  console.log(event);
-
+WordCounter.prototype.wordCount = function(inputtedText) {
+  // const words = this.inputtedText.split(" ");
+  function toCount(inputtedText){
+    return inputtedText.split(" ").length;
+  };
 };
+
+  // inputtedText.split(" ");
+  // result.length;
+  // console.log(event);
 
 
 module.exports = WordCounter;
