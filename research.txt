@@ -35,3 +35,16 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 word_counter.js:1 Uncaught Error: Module parse failed: Unexpected token (29:0)
 You may need an appropriate loader to handle this file type.
+
+=======================
+
+// InputView.prototype.bindEvents = function () {
+//   const input = document.querySelector('#text')
+//   input.addEventListener('input', (event) => {
+//     const inputtedText = event.target.value;
+//     PubSub.publish('InputView:text-inputted', inputtedText);
+//   })
+// };
+
+=====================
+const form = document.getElementById('wordcounter-form')

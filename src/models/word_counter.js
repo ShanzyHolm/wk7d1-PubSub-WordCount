@@ -15,9 +15,16 @@ WordCounter.prototype.bindEvents = function() {
 };
 
 WordCounter.prototype.wordCount = function(inputtedText) {
-    return inputtedText.split(" ").length;
+  const words = inputtedText.trim().split(" ");
+  return words.length;
   };
-  // how do we account for double spacing??
+//
+// WordCounter.prototype.wordCount = function(inputtedText) {
+//     return inputtedText.split(" ").length;
+//   };
+
 
 
 module.exports = WordCounter;
+  // how do we account for double spacing??
+  // Or if a user enters a space at the end of the text?
